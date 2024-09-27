@@ -76,7 +76,6 @@
 
 <script>
 import anime from 'animejs/lib/anime.es.js';
-import projectsData from '@/assets/projects.json';
 
 export default {
   name: "WorkPage",
@@ -96,14 +95,26 @@ export default {
   },
   methods: {
     async fetchProjects() {
-      this.projects = projectsData;
-      this.dropdowns = new Array(this.projects.length).fill(false);
+      try {
+        // Fetch my json file from github
+        const response = await fetch('https://raw.githubusercontent.com/DeceitfulDragon/portfolio-website-vue/main/projects.json');
+        if (!response.ok) {
+          throw new Error(`Failed to fetch projects. Status: ${response.status}`);
+        }
 
-      // Trigger animations when data loads
-      this.$nextTick(() => {
-        this.animateHeaders();
-        this.animateProjectList();
-      });
+        // Parse
+        const data = await response.json();
+        this.projects = data;
+        this.dropdowns = new Array(this.projects.length).fill(false);
+
+        // Trigger animations when data loads
+        this.$nextTick(() => {
+          this.animateHeaders();
+          this.animateProjectList();
+        });
+      } catch (error) {
+        console.error("Error fetching projects:", error);
+      }
     },
     // == Dropdowns ==
     toggleDropdown(index) {
