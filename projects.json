@@ -19,10 +19,10 @@
   },
   {
     "type": "code",
-    "name": "My Portfolio Website",
-    "about": "n/a",
-    "repo": "DeceitfulDragon/portfolio-website",
-    "image": "https://raw.githubusercontent.com/DeceitfulDragon/relevant-ratings/main/readme_image.png",
+    "name": "My Developer Website",
+    "about": "This is my developer portfolio website, which has been rewritten with vue and tailwind.",
+    "repo": "DeceitfulDragon/portfolio-website-vue",
+    "image": "https://raw.githubusercontent.com/DeceitfulDragon/portfolio-website-vue/refs/heads/main/Screenshot.png",
     "created": "09-2024",
     "languages": ["Vue", "Tailwind", "JavaScript", "HTML", "CSS"]
   },
