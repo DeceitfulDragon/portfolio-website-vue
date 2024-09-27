@@ -1,0 +1,65 @@
+[
+  {
+    "type": "code",
+    "name": "Relevant Ratings",
+    "about": "Relevant Ratings is a personal movie rating web app built with Vue.js, allowing you to search for movies, add personal ratings, and save reviews. The site uses the OMDb (Open Movie Database) API to fetch movie details like titles, genres, directors, and IMDb ratings.",
+    "repo": "DeceitfulDragon/relevant-ratings",
+    "image": "https://raw.githubusercontent.com/DeceitfulDragon/relevant-ratings/main/readme_image.png",
+    "created": "09-2024",
+    "languages": ["Vue", "Tailwind", "JavaScript", "HTML", "CSS"]
+  },
+  {
+    "type": "code",
+    "name": "Fallout Terminal Hacking Minigame ",
+    "about": "This project is a recreation of the iconic terminal hacking minigame from the Fallout series (specifically Fallout 4) developed using HTML, CSS, and JS to allow for playing on the web!",
+    "repo": "DeceitfulDragon/fallout-hacking-game",
+    "image": "https://i.postimg.cc/g0kCqRpr/terminalhackingimg.png",
+    "created": "06-2024",
+    "languages": ["JavaScript", "CSS", "HTML"]
+  },
+  {
+    "type": "code",
+    "name": "My Portfolio Website",
+    "about": "n/a",
+    "repo": "DeceitfulDragon/portfolio-website",
+    "image": "https://raw.githubusercontent.com/DeceitfulDragon/relevant-ratings/main/readme_image.png",
+    "created": "09-2024",
+    "languages": ["Vue", "Tailwind", "JavaScript", "HTML", "CSS"]
+  },
+  {
+    "type": "code",
+    "name": "Five Loaves Website",
+    "about": "This is a redesign of an old website used for a a non-profit food shelf and thrift store dedicated to providing essential services to their local community. The website is designed to be mobile-responsive and user-friendly, ensuring that all visitors, regardless of their technical skill level, can navigate and obtain the information they need!",
+    "repo": "DeceitfulDragon/five-loaves-website",
+    "image": "https://i.postimg.cc/QMQ30s9n/fiveloavesimg.png",
+    "created": "04-2024",
+    "languages": ["Bootstrap", "JQuery", "JavaScript", "HTML", "CSS"]
+  },
+  {
+    "type": "render",
+    "name": "Blender - Fallout Power Armor Garage",
+    "about": "My biggest render by far, made up of some reused models but many new ones! As my third fallout project, I went with a red rocket garage turned into a power armor garage in this fictional settlement. Much of the models are my own, but I didn't finish the render by my set deadline so I used the power armor models from the game files. This was an 8K render so it also took longer than the rest, with a goal to eventually animate the garage door opening and closing.",
+    "repo": "DeceitfulDragon/five-loaves-website",
+    "image": "https://i.postimg.cc/28HTJkVX/Deceitful-Dragon-Fallout-Power-Armor-Garage-Blender-Render.png",
+    "link": "https://i.postimg.cc/28HTJkVX/Deceitful-Dragon-Fallout-Power-Armor-Garage-Blender-Render.png",
+    "created": "05-2024"
+  },
+  {
+    "type": "render",
+    "name": "Blender - Fallout Watch Tower Home",
+    "about": "My second fallout project, meant to be a watchtower-turned-home on the outskirts of whatever settlement the first render is from. I reused some of my previous models while also experimenting with new things like the fire and smoke simulation in the background (There's a tent made with an overturned car behind it.) There's also some lore written on the pages hanging by the terminal. Most of the models and textures done by me, but I did use some Fallout 4 textures for things like the poster and notes.",
+    "repo": "DeceitfulDragon/five-loaves-website",
+    "image": "https://i.postimg.cc/wBztQJ9K/Deceitful-Dragon-Fallout-Watchtower-Render.png",
+    "link": "https://i.postimg.cc/wBztQJ9K/Deceitful-Dragon-Fallout-Watchtower-Render.png",
+    "created": "03-2024"
+  },
+  {
+    "type": "render",
+    "name": "Blender - Fallout Rainy Desk Scene",
+    "about": "A small render I made while learning how to use Blender. All models made by me, using references from Fallout 4. Some textures (like the posters) were taken from the game files. Took about a week of on-and-off rendering (about 8 hour sessions each) to get the look I wanted. Actual modelling was likely around a month or two. You can use this link to see the animation, with music and rain:   https://www.youtube.com/watch?v=jBtDjHbq-gE",
+    "repo": "DeceitfulDragon/five-loaves-website",
+    "image": "https://i.postimg.cc/dVyHyMVH/Deceitful-Dragon-Fallout-Rainy-Desk-Scene.png",
+    "link": "https://i.postimg.cc/dVyHyMVH/Deceitful-Dragon-Fallout-Rainy-Desk-Scene.png",
+    "created": "08-2023"
+  }
+]
