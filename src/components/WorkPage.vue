@@ -22,15 +22,15 @@
               
               <!-- Text and languages -->
               <div class="lg:w-1/2">
-                <h4 class="text-lg lg:text-xl font-bold mb-2">Description:</h4>
+                <h4 class="text-lg lg:text-xl font-bold mb-2 font-heading">Description:</h4>
                 <p class="text-gray-300 font-primary mb-4 pl-2 text-base sm:text-lg lg:text-xl">{{ project.about }}</p>
                 <!-- Repository link -->
-                <h4 class="text-lg lg:text-xl font-bold mb-2">Project Link:</h4>
+                <h4 class="text-lg lg:text-xl font-bold mb-2 font-heading">Project Link:</h4>
                 <a :href="`https://github.com/${project.repo}`" class="text-blue-500 underline font-primary mb-4 pl-2 text-base sm:text-lg lg:text-xl">{{ project.repo }}</a>
                 <!-- Languages header -->
-                <h4 class="text-lg lg:text-xl font-bold mb-2 mt-4">Languages:</h4>
+                <h4 class="text-lg lg:text-xl font-bold mb-2 mt-4 font-heading">Languages:</h4>
                 <div class="flex flex-row mt-2 bg-gradient-to-r from-green-400 to-blue-500 rounded-lg">
-                  <div v-for="(language, langIndex) in project.languages" :key="langIndex" class="flex-grow text-center text-sm text-white py-1"> 
+                  <div v-for="(language, langIndex) in project.languages" :key="langIndex" class="flex-grow text-center text-sm text-white py-1 font-primary"> 
                     🞂 {{ language }}
                   </div>
                 </div>
@@ -44,7 +44,7 @@
       <section>
         <div ref="personalHeader" class="flex items-center mb-8 opacity-0">
           <img src="@/assets/images/folder-icon.webp" alt="Hobby Icon" class="w-12 h-12 mr-4">
-          <h2 class="text-3xl font-bold">Personal Projects</h2>
+          <h2 class="text-3xl font-bold font-primary">Personal Projects</h2>
         </div>
         <div v-for="(render, index) in renderProjects" :key="index" :ref="'project-' + (index + codeProjects.length)" class="opacity-0 mb-6 px-4">
           <div @click="toggleDropdown(index + codeProjects.length)" class="cursor-pointer flex items-center justify-between p-4 bg-skill-bg rounded-lg hover:bg-gray-700 transition-colors px-4">
@@ -61,9 +61,9 @@
               
               <!-- About Section @ 1/3 width -->
               <div class="lg:w-1/3">
-                <h4 class="text-lg lg:text-xl font-bold mb-2">Description:</h4>
+                <h4 class="text-lg lg:text-xl font-bold mb-2 font-heading">Description:</h4>
                 <p class="text-gray-300 font-primary mb-4 pl-2 text-base sm:text-lg lg:text-xl">{{ render.about }}</p>
-                <h4 class="text-lg lg:text-xl font-bold mb-2">Link:</h4>
+                <h4 class="text-lg lg:text-xl font-bold mb-2 font-heading">Link:</h4>
                 <a :href="`${render.link}`" class="text-blue-500 underline font-primary mb-4 pl-2 text-base sm:text-lg lg:text-xl">{{ render.link }}</a>
               </div>
             </div>
