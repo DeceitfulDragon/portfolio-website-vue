@@ -1,6 +1,15 @@
 [
   {
     "type": "code",
+    "name": "Paperback",
+    "about": "A simple, desktop note-taking app with encryption. Built to learn the nature of Electron and make something I'd use myself.",
+    "repo": "DeceitfulDragon/paperback",
+    "image": "https://raw.githubusercontent.com/DeceitfulDragon/paperback/main/Filler_Screenshot.png",
+    "created": "04-2025",
+    "languages": ["Vue", "Tailwind", "Electron", "SQLite", "JavaScript", "HTML", "CSS"]
+  },
+  {
+    "type": "code",
     "name": "Relevant Ratings",
     "about": "Relevant Ratings is a personal movie rating web app built with Vue.js, allowing you to search for movies, add personal ratings, and save reviews. The site uses the OMDb (Open Movie Database) API to fetch movie details like titles, genres, directors, and IMDb ratings.",
     "repo": "DeceitfulDragon/relevant-ratings",
@@ -37,9 +46,16 @@
   },
   {
     "type": "render",
+    "name": "Blender - Fallout Cozy Office",
+    "about": "Another fallout project, this time of a more cozy archivist's home office. Holotapes and books litter the area, a central terminal displays programs while booze and a shotglass sits beside it.",
+    "image": "https://i.postimg.cc/7ZV3tV02/Cozy-Office-Scene-12-8-K.png",
+    "link": "https://i.postimg.cc/7ZV3tV02/Cozy-Office-Scene-12-8-K.png",
+    "created": "01-2025"
+  },
+  {
+    "type": "render",
     "name": "Blender - Fallout Power Armor Garage",
     "about": "My biggest render by far, made up of some reused models but many new ones! As my third fallout project, I went with a red rocket garage turned into a power armor garage in this fictional settlement. Much of the models are my own, but I didn't finish the render by my set deadline so I used the power armor models from the game files. This was an 8K render so it also took longer than the rest, with a goal to eventually animate the garage door opening and closing.",
-    "repo": "DeceitfulDragon/five-loaves-website",
     "image": "https://i.postimg.cc/28HTJkVX/Deceitful-Dragon-Fallout-Power-Armor-Garage-Blender-Render.png",
     "link": "https://i.postimg.cc/28HTJkVX/Deceitful-Dragon-Fallout-Power-Armor-Garage-Blender-Render.png",
     "created": "05-2024"
@@ -48,7 +64,6 @@
     "type": "render",
     "name": "Blender - Fallout Watch Tower Home",
     "about": "My second fallout project, meant to be a watchtower-turned-home on the outskirts of whatever settlement the first render is from. I reused some of my previous models while also experimenting with new things like the fire and smoke simulation in the background (There's a tent made with an overturned car behind it.) There's also some lore written on the pages hanging by the terminal. Most of the models and textures done by me, but I did use some Fallout 4 textures for things like the poster and notes.",
-    "repo": "DeceitfulDragon/five-loaves-website",
     "image": "https://i.postimg.cc/wBztQJ9K/Deceitful-Dragon-Fallout-Watchtower-Render.png",
     "link": "https://i.postimg.cc/wBztQJ9K/Deceitful-Dragon-Fallout-Watchtower-Render.png",
     "created": "03-2024"
@@ -57,7 +72,6 @@
     "type": "render",
     "name": "Blender - Fallout Rainy Desk Scene",
     "about": "A small render I made while learning how to use Blender. All models made by me, using references from Fallout 4. Some textures (like the posters) were taken from the game files. Took about a week of on-and-off rendering (about 8 hour sessions each) to get the look I wanted. Actual modelling was likely around a month or two. You can use this link to see the animation, with music and rain:   https://www.youtube.com/watch?v=jBtDjHbq-gE",
-    "repo": "DeceitfulDragon/five-loaves-website",
     "image": "https://i.postimg.cc/dVyHyMVH/Deceitful-Dragon-Fallout-Rainy-Desk-Scene.png",
     "link": "https://i.postimg.cc/dVyHyMVH/Deceitful-Dragon-Fallout-Rainy-Desk-Scene.png",
     "created": "08-2023"
