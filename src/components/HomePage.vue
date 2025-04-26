@@ -14,22 +14,22 @@
           <ul class="flex justify-center lg:justify-start space-x-4 mt-4 lg:mt-8">
             <li ref="link1" class="opacity-0">
               <a href="https://github.com/DeceitfulDragon" target="_blank" aria-label="GitHub" class="text-2xl sm:text-3xl text-white hover:text-green-primary">
-                <i class="fab fa-github"></i>
+                <i class="fa-brands fa-github"></i>
               </a>
             </li>
             <li ref="link2" class="opacity-0">
-              <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn" class="text-2xl sm:text-3xl text-white hover:text-green-primary">
-                <i class="fab fa-linkedin"></i>
+              <a href="https://www.linkedin.com/in/hunter-h-49345735b/" target="_blank" aria-label="LinkedIn" class="text-2xl sm:text-3xl text-white hover:text-green-primary">
+                <i class="fa-brands fa-linkedin"></i>
               </a>
             </li>
             <li ref="link3" class="opacity-0">
-              <a href="https://twitter.com" target="_blank" aria-label="Twitter" class="text-2xl sm:text-3xl text-white hover:text-green-primary">
-                <i class="fab fa-twitter"></i>
+              <a href="mailto:me@deceitfuldragon.xyz" target="_blank" aria-label="Email" class="text-2xl sm:text-3xl text-white hover:text-green-primary">
+                <i class="fa-solid fa-envelope"></i>
               </a>
             </li>
             <li ref="link4" class="opacity-0">
-              <a href="https://instagram.com" target="_blank" aria-label="Instagram" class="text-2xl sm:text-3xl text-white hover:text-green-primary">
-                <i class="fab fa-instagram"></i>
+              <a href="https://www.youtube.com/watch?v=u-WTfP3WJc4" target="_blank" aria-label="Loretta" class="text-2xl sm:text-3xl text-white hover:text-green-primary">
+                <i class="fa-brands fa-youtube"></i>
               </a>
             </li>
           </ul>
